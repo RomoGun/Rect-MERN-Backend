@@ -35,10 +35,10 @@ const crearEvento = async( req, res ) => {
         });
     }
 
-    res.json({
-        ok: true,
-        msg: 'crearEvento'
-    });
+    // res.json({
+    //     ok: true,
+    //     msg: 'crearEvento'
+    // });
 }
 
 const actualizarEvento = async( req, res ) => {
